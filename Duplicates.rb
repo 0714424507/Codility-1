@@ -5,6 +5,8 @@
 
 def find_duplicates(arr)
     # Your code here
+    duplicates = arr.group_by { |element| element }.select { |_, group| group.length > 1 }
+    duplicates.keys
 end
   
 # Example usage

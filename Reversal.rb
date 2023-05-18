@@ -5,6 +5,7 @@
 
 def reverse_array(arr)
     # Your code here
+    return arr.reverse
 end
   
 # Example usage
