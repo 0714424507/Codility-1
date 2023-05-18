@@ -8,7 +8,7 @@ def variable_swap(a, b)
     temp = a
     a = b
     b = temp
-    return a
+    
 end
   
 # Example usage
